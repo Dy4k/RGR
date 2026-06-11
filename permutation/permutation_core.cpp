@@ -23,8 +23,7 @@ vector<size_t> buildInversePermutation(const vector<size_t>& perm) {
     return inv;
 }
 
-void applyPermutation(const uint8_t* input, uint8_t* output,
-                      const vector<size_t>& perm, size_t block_size) {
+void applyPermutation(const uint8_t* input, uint8_t* output, const vector<size_t>& perm, size_t block_size) {
     for (size_t i = 0; i < block_size; i++) {
         output[i] = input[perm[i]];
     }
