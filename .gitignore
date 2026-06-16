@@ -1,0 +1,13 @@
+/build/
+/out/
+/bin/
+/obj/
+
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.a
+
+.vscode/
