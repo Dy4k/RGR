@@ -5,8 +5,6 @@
 
 using namespace std;
 
-
-
 bool loadLibraryFile(
     const string& path,
     LoadedLibrary& library
